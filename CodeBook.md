@@ -12,25 +12,22 @@
 
 ## DATA DICTIONARY - Human Activity Recognition Using Smartphones Data Set
 
-* Record identifier variables
-    * subjectID 
-        numeric identifier tying the record to one of 30 subjects 
-    * testDummy 
-        dummy variable indicating either test or train experiment type; omitted from final Tidy Data but used in intermediate steps
-        0. Training experiment record
-        1. Test experiment record
-    *activityCode 
+### Record identifier variables
+    * subjectID - numeric identifier tying the record to one of 30 subjects 
+    * testDummy- dummy variable indicating either test or train experiment type; omitted from final Tidy Data but used in intermediate steps
+        * 0 - Training experiment record
+        * 1 - Test experiment record
+    * activityCode 
         numeric identifier tying the record to one of 6 experimental activities
-        1. Walking
-        2. Walking upstairs
-        3. Walking downstairs
-        4. Sitting
-        5. Standing
-        6. Laying
-activity
-    character string identifying the experimental activity by name
+        * 1 - Walking
+        * 2 - Walking upstairs
+        * 3 - Walking downstairs
+        * 4 - Sitting
+        * 5 - Standing
+        * 6 - Laying
+    * activity- character string identifying the experimental activity by name
 
-* Features variables: selection of features info take from features_info.txt
+### Features variables: selection of features info taken from features_info.txt
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
